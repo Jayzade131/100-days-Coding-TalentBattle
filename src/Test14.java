@@ -1,12 +1,8 @@
-/*Day 15 coding Statement : Write a program to identify if the number is Strong number or not
+/*Day 14 coding Statement : Write a program to reverse a given number
 
 Description
 
-Get a number as input from user and then check whether that number is a strong number or not. A number is said to be strong number if the sum of the factorial of each digit in the number is same as that of the number.
-
-E.g. let the number be 145
-
-Here 1! + 4! + 5! is 1 + 24 + 120 which is equal to 145 itself.*/
+Get an input from the user and the print the reverse of the given number as the output*/
 import java.util.Scanner;
 public class Test14
 {
