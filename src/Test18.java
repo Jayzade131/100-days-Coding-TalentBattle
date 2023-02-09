@@ -25,10 +25,26 @@ public class Test18 {
 		
 		int x3=(x1*x2)+(x2*y1);
 		int y3=(y1*y2);
+		int div;
+		
+		if(x3>y3)
+		{
+			div=y3;
+		}
+		else{
+			div=x3;
+		}
+		for(int i=div;i>0;i--)
+		{
+			if(x3%i==0 && y3%i==0)
+			{
+				x3=x3/i;
+				y3=y3/i;
+			}
+		}
+		System.out.println(x3+"/"+y3);
 		
 		
-		
-		System.out.println(x3/y3);
 
 	}
 
