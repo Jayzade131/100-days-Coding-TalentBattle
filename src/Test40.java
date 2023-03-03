@@ -12,17 +12,16 @@ import java.util.Scanner;
 public class Test40 {
 
 	public static void main(String[] args) {
-		Scanner sc=new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 		System.out.println("enter the String");
-		String str1=sc.nextLine();
+		String str1 = sc.nextLine();
 		System.out.println("enter the substring to be removed :");
-		String str2=sc.nextLine();
-		
-		String str3=str1.replaceAll(str2, "");
+		String str2 = sc.nextLine();
+
+		String str3 = str1.replaceAll(str2, "");
 		System.out.println("enter the new substring :");
-		String str4=sc.nextLine();
-		String str5=str4+str3;
-		System.out.println(str5);
+		String str4 = sc.nextLine();
+		System.out.println(str4 + str3);
 	}
 
 }
