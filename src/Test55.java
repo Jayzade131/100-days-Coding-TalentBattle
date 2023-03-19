@@ -20,7 +20,7 @@ public class Test55 {
 				arr1[j]=sc.nextInt();
 			}
 		 int sum=0;
-		 Arrays.sort(arr);
+		 Arrays.sort(arr); 
 		 Arrays.sort(arr1);
 		 for (int i = 0; i < n; i++) {
 			
