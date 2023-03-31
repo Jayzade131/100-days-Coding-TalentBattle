@@ -40,8 +40,9 @@ public class Test65 {
 			int pi=sc.nextInt();
 			
 			if(pi<=b)
-			{	if(wi*hi>size)
+			{	if(wi*hi>size){
 				size=wi*hi;
+			}
 			}
 		}
 		if(size!=0)
