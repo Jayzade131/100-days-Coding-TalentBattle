@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-/*Day 23 coding Statement : Write a program to Replace all 0’s with 1 in a given integer
+/*Day 23 coding Statement : Write a program to Replace all 0ï¿½s with 1 in a given integer
 
 Description
 
@@ -33,7 +33,7 @@ public class Test23 {
 		 newnum =newnum / 10;
 		 }
 		 System.out.println("New number is: "+num);
-
+ 
 		 }
 
 }
