@@ -12,7 +12,7 @@ import java.util.Scanner;
 //The first line contains a positive integer H (H ≤ 15).
 //The second line contains 2H-1 positive integers (each having a value of 109 at most), the i-th integer shows the value of Vi.
 //The input is ended with H = 0.
-public class Class83 {
+public class Test83 {
 	
 	public static BigInteger MOD = new BigInteger ("1000000007");
 	public static BigInteger pr (int i, int len, BigInteger v[]) {
