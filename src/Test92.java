@@ -97,6 +97,7 @@ public class Test92 {
 
 		out = new PrintWriter(System.out);
 		int n = nextInt();
+		
 		for (int i = 0; i < n; i++) {
 			solve();
 		}
